@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="bulma.css">
-	<style>
-		.rainbow {
-		  -webkit-animation: rainbow 12s ease infinite;
-		          animation: rainbow 12s ease infinite;
-		  background-image: linear-gradient(124deg, #ffa500, #436eee, #00c78c, #fff);
-		  background-size: 800% 800%;
-		}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kurt Dacudag</title>
 
-		.hero.is-love .title,
-		.hero.is-love .subtitle {
-		  color: white;
-		}
-
-		@-webkit-keyframes rainbow {
-		  0% {
-		    background-position: 0% 80%;
-		  }
-		  50% {
-		    background-position: 100% 20%;
-		  }
-		  100% {
-		    background-position: 0% 80%;
-		  }
-		}
-
-		@keyframes rainbow {
-		  0% {
-		    background-position: 0% 80%;
-		  }
-		  50% {
-		    background-position: 100% 20%;
-		  }
-		  100% {
-		    background-position: 0% 80%;
-		  }
-		}
-
-	</style>
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bulma.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<script src="https://use.fontawesome.com/eb8e34b0ef.js"></script>
 </head>
 <body>
-
-	<section class="hero is-fullheight is-bold rainbow is-love">
+	<section class="hero is-primary is-fullheight is-bold has-text-centered">
 	  <div class="hero-body">
 	    <div class="container">
-	      <h1 class="title">
-	        Primary bold title
+	    <img src="assets/images/k.JPG" class="is-128x128 is-round animated bounceInDown" alt="">
+	      <h1 class="title is-uppercase animated fadeInLeft">
+	        Kurt Dacudag
 	      </h1>
-	      <h2 class="subtitle">
-	        Primary bold subtitle
+	      <h2 class="subtitle animated fadeInRight">
+	        empty stack dev
 	      </h2>
+	      <ul class="animated fadeInUp">
+	      	<li>
+	      		Skills:
+	      		<span class="tag is-primary is-medium">Laravel</span>
+	      		<span class="tag is-primary is-medium">Vue</span>
+	      		<span class="tag is-primary is-medium">Wordpress</span>
+	      	</li>
+	      	<li>Birthday: November 25, 1996</li>
+	      	<li>Hometown: San Carlos City, Negros Occidental</li>
+	      	<li> Current Address: Beverly Hills, Lahug, Cebu City</li>
+	      	<li>
+	      		<span class="icon is-medium">
+	      			<a href="https://www.facebook.com/dev.kurt">
+	      				<i class="fa fa-facebook-official"></i>
+	      			</a>
+	      		</span>
+	      		<span class="icon is-medium">
+	      			<a href="https://github.com/kurtdcdg">
+	      				<i class="fa fa-github"></i>
+	      			</a>
+	      		</span>
+	      		<span class="icon is-medium">
+	      			<a href="mailto:hello@kurtdacudag.com">
+	      				<i class="fa fa-envelope"></i>
+	      			</a>
+	      		</span>
+	      	</li>
+	      </ul>
 	    </div>
 	  </div>
 	</section>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.js"
+	  integrity="sha256-oYqpLeqZe9cetUDV+TFiBZHp3uJ+X4F5eLs4W6uSTSE="
+	  crossorigin="anonymous"></script>
+	<script src="assets/js/bulma.js"></script>
 </body>
 </html>

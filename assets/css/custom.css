@@ -22,3 +22,43 @@ li {
   height: 128px;
   width: 128px;
 }
+
+.rainbow {
+	-webkit-animation: rainbow 12s ease infinite;
+	animation: rainbow 12s ease infinite;
+	background-image: linear-gradient(124deg, #ffa500, #436eee, #00c78c, #fff);
+	background-size: 800% 800%;
+}
+
+.hero.is-love .title,
+.hero.is-love .subtitle {
+	color: white;
+}
+
+@-webkit-keyframes rainbow {
+	0% {
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 100% 20%;
+	}
+	100% {
+		background-position: 0% 80%;
+	}
+}
+
+@keyframes rainbow {
+	0% {
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 100% 20%;
+	}
+	100% {
+		background-position: 0% 80%;
+	}
+}
+
+.fa {
+	color: #ff3860;
+}
